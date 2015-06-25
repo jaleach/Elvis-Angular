@@ -2,6 +2,5 @@ body {
   background-color: grey; }
 
 .container {
-  margin-top: 100px;
-  width: 600;
-  text-align: center; }
+  width: 600px;
+  margin: 25px auto; }
