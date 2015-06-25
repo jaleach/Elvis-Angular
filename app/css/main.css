@@ -4,3 +4,12 @@ body {
 .container {
   width: 600px;
   margin: 25px auto; }
+
+ul li span {
+  color: white;
+  margin-left: 20px;
+  border-radius: 10px;
+  cursor: pointer; }
+
+button {
+  font-style: italic; }

@@ -4,32 +4,27 @@
 
     angular.module('Epcomments')
 
-    .controller('comment', ['$scope', '$http', 'PARSE', '$location',
+    .controller('comment', ['$scope', '$http', 'PARSE', '$location', 'CommentFactory',
 
 
-      function ($scope, $http, PARSE, $location) {
+      function ($scope, $http, PARSE, $location, CommentFactory) {
         $scope.title = 'Elvis said what';
 
-        // Elvis Comment contructor
-        var Comment = function(options){
-          this.esays = options.esays;
-          this.age = options.age;
 
-        };
 
         //add an Elvis comment method
         $scope.addComment = function(e){
 
-        var p = new Comment (e);
-        $http.post(PARSE.URL + 'classes/comments', p, PARSE.CONFIG)
+        // var p = new Comment (e);
+        // $http.post(PARSE.URL + 'classes/comments', p, PARSE.CONFIG)
 
-        .success(function(){
-          //routehome
+        CommentFactory.addComment(e).success(function(){
+
           $location.path('/epsaid');
 
         });
 
-        };
+      };
     }])
 
 

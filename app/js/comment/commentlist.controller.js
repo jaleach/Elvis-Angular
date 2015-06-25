@@ -17,7 +17,17 @@
 
 
         })
+        $scope.deleteEp = function( thisdel ) {
+
+            CommentFactory.deleteSaying(thisdel  ).success(function(){
+            $scope.commentlist = _.without($scope.commentlist, thisdel)
+
+            })
+        }
+
+
     }
+
 
     ]);
 
