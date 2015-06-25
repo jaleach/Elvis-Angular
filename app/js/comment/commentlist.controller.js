@@ -4,15 +4,15 @@
 
     angular.module('Epcomments')
 
-    .controller('commentlist', ['$scope', '$http', 'PARSE',
+    .controller('commentlist', ['$scope', '$http', 'PARSE', 'CommentFactory',
 
 
-      function ($scope, $http, PARSE) {
+      function ($scope, $http, PARSE, CommentFactory) {
         $scope.title2 = ' Elvis Sayings';
 
         $scope.commentlist = [];
-        $http.get(PARSE.URL + 'classes/Comment', PARSE.CONFIG)
-        .success(function(data){
+
+        CommentFactory.getSay().success(function(data){
           $scope.commentlist = data.results;
 
 

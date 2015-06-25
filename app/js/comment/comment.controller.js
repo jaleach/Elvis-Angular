@@ -4,7 +4,7 @@
 
     angular.module('Epcomments')
 
-    .controller('comment', ['$scope', '$http', 'PARSE', '$location'
+    .controller('comment', ['$scope', '$http', 'PARSE', '$location',
 
 
       function ($scope, $http, PARSE, $location) {
@@ -21,13 +21,11 @@
         $scope.addComment = function(e){
 
         var p = new Comment (e);
-        $http.post(PARSE.URL + 'classes/Comment', p, PARSE.CONFIG)
+        $http.post(PARSE.URL + 'classes/comments', p, PARSE.CONFIG)
 
         .success(function(){
           //routehome
           $location.path('/epsaid');
-
-        $scope.epsay = {};
 
         });
 

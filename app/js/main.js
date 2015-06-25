@@ -6,12 +6,15 @@
 
     .constant('PARSE', {
 
-      //parse
-      URL: 'http://api.parse.com/1/',
+
+      URL: 'https://api.parse.com/1/',
       CONFIG: {
+
         headers: {
-          'x-Parse-Application-Id' : 'YjaXp1hOJiHPHLRSYEVefaOEg7yvolpzHRo9phbZ',
-          'x-Parse-REST-API-Key' : 'BBZkUJsbaaXJZIlCWwfatLrbdttM1FJHSqMosPs0'
+
+          'X-Parse-Application-Id' : 'OFW3Djs2cf1rwNVfnDaZyPcV3zKa69WGSzaqNPoJ',
+          'X-Parse-REST-API-Key' : 'wmQvycFI9viXSQIa5qIpfIDFRerZTyLkjzWVRCFL'
+
         }
       }
     })

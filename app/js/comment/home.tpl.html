@@ -1,9 +1,15 @@
- <h3>State your Elvisism</h3>
+ <h2>State your Elvisism</h2>
 
 
 
-    <form ng-submit="addComment(epsay)">
-      <input type="text" ng-model="epsay.esays" placeholder="Cool Elvis Sayings">
-       <input type="text" ng-model="epsay.age" placeholder="Cool or Old Elvis">
+    <form ng-submit="addComment(epsays)">
+      <input type="text" ng-model="epsays.esays" placeholder="Cool Elvis Sayings">
+
+      <h4>Pick your King</h4>
+       <select ng-model="epsays.age">
+         <option value="Young">Young</option>
+         <option value="Old">Old</option>
+         <option value="Dead">Dead</option>
+       </select>
       <button>Say it</button>
       </form>
