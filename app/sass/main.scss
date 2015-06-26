@@ -1,24 +1,114 @@
 body{
    background-color: grey;
 }
-
 .container{
 
-  width: 600px;
+  width: 800px;
   margin: 25px auto;
 }
-ul li span{
+.ephome{
+  border: 1px solid black;
+  height: 415px;
+  padding-top: 8px;
 
-  color: white;
+
+}
+.epic{
+  margin-bottom: 40px;
+  margin-left: 2px;
+  h2{
+  font-family: 'Courgette', cursive;
+  display: inline-block;
   margin-left: 20px;
+  }
+}
+button{
+
+  img{
+    height: 45px;
+  }
+  font-style: italic;
+  background-color: black;
+}
+
+.icon-bar > *{
+  color:  white;
+  font-family: 'Courgette', cursive;
+}
+
+//epsaid styling
+.saidy{
+    font-family: 'Courgette', cursive;
+
+}
+.eap{
+  display: inline-block;
+    h1{
+  font-family: 'Courgette', cursive;
+
+    }
+
+}
+ul{
+  list-style-type: none;
+
+}
+  li span{
+
+  color: grey;
+  margin-left: 30px;
   border-radius: 10px;
   cursor: pointer;
+}
+.epsaid1{
+  margin-top: 70px;
+  width: 400px;
+  float: left;
+  border: 1px solid white;
+  background-color: black;
 
+  h5{
+    color: white;
+      font-family: 'Courgette', cursive;
+
+  }
+
+  a{
+    font-size: 25px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
 }
 
-button{
-  font-style: italic;
+//epstuff
+
+.estuffy{
+  margin-top: 25px;
+  h2{
+  font-family: 'Courgette', cursive;
+  }
 }
+.estuff{
+  border: 1px solid white;
+  background-color: black;
+  margin-top: 25px;
+  label{
+    color: grey;
+  }
+  h2{
+      font-family: 'Dancing Script', cursive;
+      color: white;
 
 
+  }
+  h3{
+      font-family: 'Dancing Script', cursive;
+      color: white;
+ }
+  h5{
 
+      font-family: 'Dancing Script', cursive;
+      color: white;
+
+  }
+}

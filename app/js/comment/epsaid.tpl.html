@@ -1,8 +1,20 @@
 
-<h2>{{ title2 }}</h2>
+
+
+<div class="large-6 columns eap">
+  <h1>Elvisisms</h1>
+
+  <img src="image/eap.png">
+
+
+</div>
+
+<div class="large-6 columns epsaid1">
+<h5>Click an elivisism for more</h5>
 <ul>
   <li ng-repeat="v in commentlist">
   <a href="#/epx/{{ v.objectId }}">
   {{ v.esays}}</a>
-  <span ng-click="deleteEp(v)">EP</span></li>
+  <span ng-click="deleteEp(v)">Delete my EP</span></li>
 </ul>
+</div>

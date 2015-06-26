@@ -8,7 +8,6 @@
 
 
       function ($scope, $http, PARSE, CommentFactory) {
-        $scope.title2 = ' Elvis Sayings';
 
         $scope.commentlist = [];
 

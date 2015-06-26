@@ -15,7 +15,7 @@
           this.age = options.age;
           this.date = options.date;
           this.song = options.song;
-          this.mov  = options.mov
+          this.mov  = options.mov;
 
         };
 
