@@ -17,9 +17,9 @@
 
 
         })
-        $scope.deleteEp = function( thisdel ) {
+        $scope.deleteEp = function(thisdel) {
 
-            CommentFactory.deleteSaying(thisdel  ).success(function(){
+            CommentFactory.deleteSaying(thisdel).success(function(){
             $scope.commentlist = _.without($scope.commentlist, thisdel)
 
             })
