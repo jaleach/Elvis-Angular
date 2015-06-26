@@ -1,6 +1,6 @@
 ## Welcome to My Angular Project Elvis Presley Sayings
 
-> Elvis Presley sayings through the year
+> Elvis Presley sayings through the years
 
 
 ## Usage

@@ -35,6 +35,12 @@
           templateUrl: 'js/comment/epsaid.tpl.html'
 
 
+        })
+
+        .when('/epx/:id',{
+          controller: "einfo",
+          templateUrl: 'js/comment/epstuff.tpl.html'
+
         });
 
         }

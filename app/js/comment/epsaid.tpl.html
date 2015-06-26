@@ -1,5 +1,8 @@
 
 <h2>{{ title2 }}</h2>
 <ul>
-  <li ng-repeat="v in commentlist">{{ v.esays}} : {{ v.age }} <span ng-click="deleteEp(v)">EP</span></li>
+  <li ng-repeat="v in commentlist">
+  <a href="#/epx/{{ v.objectId }}">
+  {{ v.esays}}</a>
+  <span ng-click="deleteEp(v)">EP</span></li>
 </ul>

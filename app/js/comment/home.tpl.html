@@ -1,15 +1,35 @@
  <h2>State your Elvisism</h2>
 
 
-
+ <div class="large-12 columns">
     <form ng-submit="addComment(epsays)">
-      <input type="text" ng-model="epsays.esays" placeholder="Cool Elvis Sayings">
+      <div class="row">
+        <div class="large-8 columns">
+          <input type="text" ng-model="epsays.esays" placeholder="Cool Elvis Sayings">
+        </div>
+        <div class="large-4 columns">
+          <input type="date" ng-model="epsays.date" placeholder="Cool Elvis Sayings">
+        </div>
+        <div class="large-6 columns">
+          <input type="text" ng-model="epsays.song" placeholder="Your favorite song">
+        </div>
+        <div class="large-6 columns">
+          <h4>Pick your favorite Elvis movie</h4>
+        <select ng-model="epsays.mov">
+          <option value="Viva Las Vegas">Viva Las Vegas</option>
+          <option value="Love Me Tender">Love Me Tender</option>
+          <option value="Kissin Cousins">Kissin Cousins</option>
+          <option value="Speedway">Speedway</option>
+       </select></div>
+      </div>
 
+      <div class="large-5 columns">
       <h4>Pick your King</h4>
        <select ng-model="epsays.age">
          <option value="Young">Young</option>
          <option value="Old">Old</option>
          <option value="Dead">Dead</option>
-       </select>
+       </select></div>
       <button><img src="image/ep.jpeg"> Click me pretty mama!! </button>
       </form>
+  </div>
