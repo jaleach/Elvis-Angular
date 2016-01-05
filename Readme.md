@@ -2,7 +2,7 @@
 
 > Elvis Presley sayings through the years built with AngularJS
 
-[Elvis](http://development.tiy-elvis.divshot.io/#/)
+[Elvis](http://general-manager-cat-52021.bitballoon.com/#/)
 
 ####Tools Used
 * AngularJs
