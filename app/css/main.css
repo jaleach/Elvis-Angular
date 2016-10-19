@@ -19,10 +19,12 @@ body {
     margin-left: 20px; }
 
 button {
+  border-radius: 50%;
   font-style: italic;
   background-color: black; }
   button img {
-    height: 45px; }
+    height: 45px;
+    border-radius: 50%; }
 
 .icon-bar > * {
   color: white;
